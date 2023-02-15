@@ -1,0 +1,273 @@
+@font-face {
+  font-family: "KyoboHand";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/KyoboHand.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "KOTRA_BOLD-Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.1/KOTRA_BOLD-Bold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NeoDunggeunmo";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.3/NeoDunggeunmo.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  font-family: "Noto Sans KR", sans-serif;
+}
+body {
+  background-size: 100px;
+  background-color: #a3a3a3;
+  overflow-y:scroll;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.bookcover {
+  width: 1200px;
+  height: 800px;
+  margin: 50px auto;
+
+  background-color: #a5d6dd;
+
+  border-radius: 9px;
+  border: 1px solid #738186;
+
+  position: relative;
+}
+.bookdot {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+
+  width: 1174px;
+  height: 775px;
+
+  border: 2px dashed white;
+  border-radius: 9px;
+}
+.page {
+  position: absolute;
+  top: 8px;
+  left: 7px;
+
+  width: 1161px;
+  height: 760px;
+  background-color: rgb(238, 238, 238);
+
+  border: none;
+  border-radius: 9px;
+
+  display: flex;
+  flex-wrap: nowrap;
+}
+.left-container {
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+  margin-bottom: 15px;
+}
+.middle-container {
+  width: 850px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  margin-bottom: 15px;
+}
+.right-container {
+  border-radius: 5px;
+  flex: 0.05;
+  margin: 15px 15px 15px 0;
+}
+.left-container .left-visits {
+  flex: 0.2;
+}
+.left-container .left-visits p {
+  font-size: 12px;
+  text-align: center;
+  padding-top: 15px;
+}
+.left-container .left-box {
+  background-color: white;
+  border: 1px solid #ced1d3;
+  border-radius: 9px;
+  margin: 0 15px;
+  flex: 2;
+  padding: 15px;
+}
+.left-container .left-box .profile-img {
+	width: 200px;
+	height: 200px;  
+	margin: 0px;
+}
+.left-container .left-box .profile a{
+  text-decoration: none;
+  font-size:12px;
+  padding: 0px;
+  color:black;
+}
+.left-container .left-box .profile a:active{
+  color:black;
+}
+.middle-container .middle-title {
+  flex: 0.2;
+  display: flex;
+}
+.middle-container .middle-box {
+  flex: 2;
+  background-color: white;
+  border: 1px solid #ced1d3;
+  border-radius: 9px;
+  overflow-x:hidden; 
+}
+.middle-container .middle-title .middle-desc {
+  flex: 1.5;
+  font-size: 15px;
+  height: 20px;
+  margin-top: 40px;
+}
+.middle-container .middle-title .middle-url {
+  flex: 1;
+  font-size: 13px;
+  height: 20px;
+  margin-top: 40px;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.right-container .right-title {
+  flex: 0.2;
+  height: 70px;
+}
+
+.right-container .right-tab .tab {
+  display: flex;
+  width: 70px;
+  height: 35px;
+  padding: 0;
+  margin: 5px 0px;
+  background-color: #3e9fbe;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  text-align: center;
+  border: 1px solid black;
+  border-left: none;
+}
+.right-container .right-tab a {
+  display: flex;
+  font-size: 14px;
+  padding-left: 10px;
+  line-height: 35px;
+  color: white;
+  width: 70px;
+  height: 35px;
+  text-decoration: none;
+}
+
+.left-box .profile p {
+  font-size: 13px;
+  font-family: "KyoboHand";
+  height: 130px;
+  margin: 10px;
+}
+.left-box .profile .profile-name {
+  font-size: 15px;
+  font-family: "KyoboHand";
+  margin: 10px;
+}
+.middle-box .updated-news {
+  margin: 15px;
+}
+.middle-box .updated-news .updated-news-wrap {
+  display: flex;
+}
+.updated-news-wrap .updated-news-left {
+  flex: 0.5;
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+}
+.updated-news-wrap .updated-news-left .news-line {
+  font-size: 13px;
+  display: flex;
+  margin-bottom: 2px;
+}
+.news-line .news-block-img {
+  background-color: rgb(242, 98, 94);
+  width: 60px;
+  height: 18px;
+  padding: 1px;
+  text-align: center;
+  color: white;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+.news-line .news-block-txt {
+  background-color: rgb(102, 122, 193);
+  width: 60px;
+  height: 18px;
+  padding: 1px;
+  text-align: center;
+  color: white;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+.updated-news-wrap .updated-news-right {
+  flex: 0.5;
+}
+.updated-news-right .category {
+  display: flex;
+  flex-direction: column;
+}
+.updated-news-right .category .category-line {
+  display: flex;
+  margin-bottom: 1px;
+}
+.updated-news-right .category .diary {
+  flex: 1;
+  font-family: "NeoDunggeunmo";
+  font-size: 15px;
+}
+.updated-news-right .category .picture {
+  flex: 1;
+  font-family: "NeoDunggeunmo";
+  font-size: 15px;
+}
+.updated-news-right .category .board {
+  flex: 1;
+}
+.updated-news-right .category .guest {
+  flex: 1;
+}
+.middle-box .miniroom {
+  margin: 8px 15px;
+}
+.top-msg {
+  color: rgb(63, 133, 172);
+  font-family: "KOTRA_BOLD-Bold";
+  font-size: 13px;
+}
+.friends-say{
+  color: rgb(63, 133, 172);
+  font-family: "KOTRA_BOLD-Bold";
+  font-size: 13px;
+  margin: 8px
+}
+hr {
+  border-bottom: 0px;
+  margin-top: 1px;
+}
+hr.dotted {
+  border: none;
+  width: 100%;
+  border: 0.1px dashed rgb(192, 191, 191);
+}

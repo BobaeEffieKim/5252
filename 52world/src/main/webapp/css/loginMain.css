@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/* 이곳은 시작화면 겸 로그인 창이 나타나는 페이지에 대한 css코드가 있는 곳입니다. */
+body {
+	height: 100vh;
+	width: 100%;
+	background-image: url('/52world/asset/최최종.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#wrap {
+	width: 100vw;
+	margin: 0 auto;
+	padding-top: 48vh;
+}
+
+#idBox input {
+	border-radius: 5px;
+	border: 1px solid #ddd;
+	height: 30px;
+	padding-left: 10px;
+}
+
+#pwBox input {
+	border-radius: 5px;
+	border: 1px solid #ddd;
+	height: 30px;
+	padding-left: 10px;
+}
+
+#loginBtn {
+	border-radius: 30px;
+	border: 1px solid rgb(34, 84, 52);
+	background-color: darkgreen;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	width: 150px;
+	height: 30px;
+	cursor : pointer;
+}
+#loginBtn:hover{
+	background-color: white;
+	color: darkgreen;
+}
+
+
+a {
+	margin-right: 20px;
+	font-size: 13px;
+	text-decoration: none;
+}
+
+a:visited {
+	color: rgb(135, 134, 134);
+}
+
+a:hover {
+	color: navy;
+}
+
+a:link {
+	color: rgb(135, 134, 134);
+}

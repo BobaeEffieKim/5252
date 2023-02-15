@@ -1,0 +1,295 @@
+@charset "UTF-8";
+
+#container {
+	padding: 0;
+	width: 720px;
+	box-sizing: border-box;
+	margin: 10px auto;
+	height: 260px;
+	background-color: rgb(237, 237, 237);
+
+	border-radius :10px; 
+
+}
+.container-list {
+	padding: 0;
+	width: 720px;
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding : 10px auto;
+	height: 340px;
+	background-color:rgb(237, 237, 237);
+
+	border-radius :10px; 
+
+}
+#nav {
+	width: 680px;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: rgb(237, 237, 237);
+}
+#nav-comment {
+	width: 680px;
+	margin: 0 auto;
+	padding: 5px;
+	background-color: rgb(237, 237, 237);
+	
+}
+#nav-comment ul {
+	padding: 0;
+	margin: 0;
+}
+
+#nav-comment li {
+	display: inline;
+	padding: 10px;
+	font-size : 15px;
+}
+
+#nav ul {
+	padding: 0;
+	margin: 0;
+}
+#nav li {
+	display: inline;
+	padding: 10px;
+	font-size : 17px;
+}
+.sub-box-Button {
+	float: right;
+	margin-left: 10px;
+}
+a:link {
+    color: black; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover:not(.active) {
+    background-color: none;
+}
+.active {
+    background-color: none;
+}
+#delete-button{
+	float: right;
+	margin-left: 10px;
+	border:none;
+  	background-color: rgb(237, 237, 237);
+  	font-size : 17px
+}
+.update-button{
+	float: right;
+	margin-left: 10px;
+	border:none;
+  	background-color: rgb(237, 237, 237);
+  	font-size : 17px
+}
+#secret-button{
+	float: right;
+	margin-left: 10px;
+	border:none;
+  	background-color: rgb(237, 237, 237);
+  	font-size : 17px
+}
+#button {
+	float: right;
+	margin-left: 10px;
+	border:none;
+  	background-color: rgb(237, 237, 237);
+  	font-size : 17px
+}
+.insert-box {
+	margin: 20px 20px 0 20px;
+}
+#main-box {
+	clear: both;
+	width: 680px;
+	height: 200px;
+	margin: 0 atuo;
+	padding: 5px 5px 2px 5px;
+	border: none;
+}
+#main-box-list {
+	clear: both;
+	width: 680px;
+	margin: 0 atuo;
+	height: 200px;
+	padding: 5px 5px 2px 5px;
+	border: none;
+}
+#content1 {
+	float: left;
+	width: 200px;
+	height: 190px;
+	margin: 10px;
+	border-color: #cccccc; 
+	background-color: rgb(255, 255, 255);
+}
+img {
+width: 200px;
+height: 190px;
+}
+#content1-list {
+	float: left;
+	width: 200px;
+	height: 190px;
+	margin: 0 20px;
+	border-color: #cccccc; 
+	background-color: rgb(255, 255, 255);
+}
+#content2 {
+	float: left;
+	width: 63%;
+	height: 93%;
+	margin: 10px 5px 10px 10px;
+	border-color: #cccccc;
+	background-color: rgb(255, 255, 255);
+}
+#content2-list {
+	float: left;
+	width: 63%;
+	height: 93%;
+	margin: 1px 5px 10px 1px;
+	border-color: #cccccc;
+	background-color: rgb(255, 255, 255);
+	
+}
+textarea {
+	width: 100%;
+	height: 99%;
+	border: none;
+	resize: none;
+	background-color: rgb(255, 255, 255);
+	overflow:auto;
+	font-size : 18px;
+}
+
+textarea:focus {
+	outline: none;
+}
+
+
+.content-box{
+width: 610px;
+height: 40px;
+}
+.middle-box{
+overflow-x:hidden; 
+}
+.content {
+overflow:auto;
+}
+.content-list {
+overflow:auto;
+}
+
+.comment-box{
+width: 610px;
+height: 70px;
+resize:none;
+overflow:hidden;
+margin : 0 0 0 25px;
+font-size :15px;
+float: left;
+}
+
+.addComm {
+float: left;
+margin-left: 15px;
+margin-top : 5px;
+width:40pt;
+height:40pt;
+
+} 
+
+.comment-list-box {
+	padding: 0;
+	width: 720px;
+	box-sizing: border-box;
+	margin: 5px auto;
+	padding : 10px auto;
+	height: auto;
+	overflow : hidden;
+	background-color:rgb(237, 237, 237);
+	border-radius :5px; 
+}
+.comment-box-list{
+	margin-top: 5px;
+}
+
+.comment {
+width: 710px;
+height: auto;
+resize:none;
+overflow:hidden;
+margin : 0 0 0 10px;
+font-size :15px;
+float: left;
+}
+
+.comment-txt-list{
+	width: 100%;
+	height: 99%;
+	border: none;
+	resize: none;
+	background-color: rgb(255, 255, 255);
+	overflow:auto;
+	font-size: 20px;
+}
+.comment-txt{
+	padding:0 20px;
+	font-size: 15px;
+	height: 30px;
+}
+
+
+summary {
+width : 720px;
+ cursor: pointer;
+ margin-left : 40px;
+} 
+
+.center {
+  text-align: center;
+}
+.pagination {
+  display: inline-block;
+  margin : 0 0 10px 0; 
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 4px 8px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  margin: 0 4px 4px 0;
+  
+}
+
+.pagination a.active {
+  background-color: #ddd;
+  color: white;
+  border: 1px solid #ddd;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+

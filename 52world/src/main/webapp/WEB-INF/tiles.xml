@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+	<definition name="home" template="/WEB-INF/tiles/template/template.jsp">
+		<put-attribute name="view" value="/WEB-INF/tiles/template/view.jsp" />
+		<put-attribute name="tab" value="/WEB-INF/tiles/template/tab.jsp" />
+	</definition>
+	
+	<!-- 미니홈피 화면 설정부분 -->
+	<definition name="WILDCARD:*/*" extends="home">
+		<put-attribute name="view" value="/WEB-INF/jsp/{1}/{2}.jsp" />
+	</definition>
+	
+	
+	
+</tiles-definitions>

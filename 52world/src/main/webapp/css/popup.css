@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+body {
+	height: 100vh;
+	width: 100vw;
+	background-image: url('/52world/asset/popup_background.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
